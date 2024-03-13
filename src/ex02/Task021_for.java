@@ -11,7 +11,6 @@ public class Task021_for { // с помощью for
         for (int i = 0; i < strings.length; i++) {
             System.out.println(strings[i]);
         }
-
         }
     }
 
