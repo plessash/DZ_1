@@ -1,5 +1,4 @@
 package ex02;
-
 public class Task021_while {
     public static void main(String[] args) {
         String str1 = "первый";

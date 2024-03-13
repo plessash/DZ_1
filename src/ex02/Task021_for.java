@@ -8,7 +8,6 @@ public class Task021_for { // с помощью for
         String str5 = "пятый";
         String[] strings = new String[]{str1,str2,str3,str4,str5};
         int length = strings.length;
-
         for (int i = 0; i < strings.length; i++) {
             System.out.println(strings[i]);
         }

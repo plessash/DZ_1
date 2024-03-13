@@ -1,7 +1,5 @@
 package ex01;
-
 import java.util.Scanner;
-
 class Task013 { //умножение цифр из числа между собой
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

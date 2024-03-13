@@ -1,5 +1,4 @@
 package ex02;
-
 public class Task021_doWhile {       // do while
     public static void main(String[] args) {
         String str1 = "первый";
@@ -9,7 +8,6 @@ public class Task021_doWhile {       // do while
         String str5 = "пятый";
         String[] strings = new String[]{str1,str2,str3,str4,str5};
         int length = strings.length;
-
     int i=0;
     do{
         System.out.println(strings[i]);
