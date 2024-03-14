@@ -5,12 +5,12 @@ public class motorcycles {
     public String toString() {
         return "motorcycles{" +
                 "type='" + type + '\'' +
-                ", max_speed='" + max_speed + '\'' +
+                ", max_speed='" + maxSpeed + '\'' +
                 '}';
     }
-    int max_speed;
+    int maxSpeed;
     public motorcycles(String type, int max_speed) {
         this.type = type;
-        this.max_speed = max_speed;
+        this.maxSpeed = maxSpeed;
     }
 }
