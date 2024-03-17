@@ -13,13 +13,11 @@ public class Wheels extends Names {
                 ", season='" + season + '\'' +
                 '}';
     }
-
     public Wheels(String name, int radius, String season) {
         super(name);
         this.radius = radius;
         this.season = season;
     }
-
     public Wheels(String name) {
         super(name);
     }

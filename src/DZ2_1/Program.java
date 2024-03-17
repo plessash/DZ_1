@@ -20,6 +20,5 @@ public class Program {
         } else {
             System.out.println("Мест нет((");
         }
-
     }
 }
