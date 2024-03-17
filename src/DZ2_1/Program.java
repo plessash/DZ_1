@@ -1,8 +1,9 @@
 package DZ2_1;
+import javax.swing.*;
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
-        Car car = new Car("AI95","B", new Engine("N52", 3000, "AI95"),
+        Car car = new Car("AI95", "B", new Engine("N52", 3000, "AI95"),
                 new Wheels("BBS", 17, "Summer"),
                 new Seeds(4), new Lock(new LockKey(1111)));
         Driver driver = new Driver("B", (new DriverKey(1122)));
@@ -22,3 +23,5 @@ public class Program {
         }
     }
 }
+
+
