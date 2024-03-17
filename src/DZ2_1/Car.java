@@ -1,14 +1,17 @@
 package DZ2_1;
 
 public class Car {
-    public String getCategory() {
-        return category;
+    private String fuelTank;
+
+    public String getFuelTank() {
+        return fuelTank;
     }
 
     @Override
     public String toString() {
         return "Car{" +
-                "category='" + category + '\'' +
+                "fuelTank=" + fuelTank +
+                ", category='" + category + '\'' +
                 ", engine=" + engine +
                 ", wheels=" + wheels +
                 ", seeds=" + seeds +
@@ -16,7 +19,8 @@ public class Car {
                 '}';
     }
 
-    public Car(String category, Engine engine, Wheels wheels, Seeds seeds, Lock lock) {
+    public Car(String fuelTank, String category, Engine engine, Wheels wheels, Seeds seeds, Lock lock) {
+        this.fuelTank = fuelTank;
         this.category = category;
         this.engine = engine;
         this.wheels = wheels;
@@ -24,22 +28,36 @@ public class Car {
         this.lock = lock;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
     private String category;
-   private Engine engine;
-   private Wheels wheels;
-
+    private Engine engine;
+    private Wheels wheels;
     private Seeds seeds;
-   private Lock lock;
-
-    public boolean isKeyValid(Driver driver){
+    private Lock lock;
+    public boolean isKeyValid(Driver driver) {
         int a = this.lock.getKeyValueLock();
         int b = driver.getKeyValue();
-return a == b;
-}
-
-public String IsValueCategory(){
-        String a =this.getCategory();
-        return getCategory();
-}
+        return a == b;
     }
+    public String IsValueCategory() {
+        String a = this.getCategory();
+        return getCategory();
+    }
+    public boolean isDriverCanDriveACar(Driver driver) {
+        String c = this.getCategory();
+        String e = driver.getCategory();
+        return c == e;
+    }
+    public int amountSeeds(){
+        int z =seeds.getNumberOfSeeds();
+        return seeds.getNumberOfSeeds();
+    }
+    public String amountFuel(){
+        String v = this.getFuelTank();
+        return getFuelTank();
+    }
+}
 
