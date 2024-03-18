@@ -17,7 +17,5 @@ public class Engine extends Names {
                 ", benzin='" + benzin + '\'' +
                 '}';
     }
-    public Engine(String name) {
-        super(name);
-    }
+
 }

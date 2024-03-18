@@ -1,5 +1,5 @@
 package DZ2_1;
-public abstract class Names {
+public abstract class Names {    // абстрактный класс для Engine И Wheels
     private String name;
     public Names(String name) {
         this.name = name;
