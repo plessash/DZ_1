@@ -1,6 +1,7 @@
 package ex03;
 public class Task_3 {
-static Object[] new_objects = {new House("Chkalova",2), new motorcycles("cross", 120), new Auto("black","golf")};
+static Object[] new_objects = {new House("Chkalova",2), new motorcycles("cross", 120),
+            new Auto("black","golf")};
 
     public static void main(String[] args) {
         for (int i = 0; i < new_objects.length; i++) {
