@@ -1,6 +1,4 @@
-package DZ2_1;
-
-import java.util.Arrays;
+package DZ_2;
 
 public class Wheels extends Names {
     private int radius;

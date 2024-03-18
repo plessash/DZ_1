@@ -1,4 +1,4 @@
-package DZ2_1;
+package DZ_2;
 public abstract class Names {    // абстрактный класс для Engine И Wheels
     private String name;
     public Names(String name) {

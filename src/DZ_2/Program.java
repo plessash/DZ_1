@@ -1,5 +1,4 @@
-package DZ2_1;
-import javax.swing.*;
+package DZ_2;
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {

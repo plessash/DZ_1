@@ -1,4 +1,4 @@
-package DZ2_1;
+package DZ_2;
 
 public class DriverKey {
 
