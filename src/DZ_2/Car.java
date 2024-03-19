@@ -1,7 +1,7 @@
 package DZ_2;
 public class Car {
-    private String fuelTank;
-    public String getFuelTank() {
+    private float fuelTank;
+    public float getFuelTank() {
         return fuelTank;
     }
     @Override
@@ -15,7 +15,7 @@ public class Car {
                 ", lock=" + lock +
                 '}';
     }
-    public Car(String fuelTank, String category, Engine engine, Wheels wheels, Seeds seeds, Lock lock) {
+    public Car(float fuelTank, String category, Engine engine, Wheels wheels, Seeds seeds, Lock lock) {
         this.fuelTank = fuelTank;
         this.category = category;
         this.engine = engine;
@@ -50,8 +50,8 @@ public class Car {
         int z = seeds.getNumberOfSeeds();
         return seeds.getNumberOfSeeds();
     }
-    public String amountFuel() {
-        String v = this.getFuelTank();
+    public float amountFuel() {
+        float v = this.getFuelTank();
         return getFuelTank();
     }
 }

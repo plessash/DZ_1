@@ -2,11 +2,11 @@ package DZ_2;
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
-        Car car = new Car("AI95", "B",
+        Car car = new Car(72.1F, "B",
                 new Engine("N52", 3000, "AI95"),
                 new Wheels("BBS",17,Season.SUMMER),
                 new Seeds(4), new Lock(new LockKey(1111)));
-        Driver driver = new Driver("B", (new DriverKey(1122)));
+        Driver driver = new Driver(2,"B", (new DriverKey(1122)));
         System.out.println(driver);
         System.out.println(car);
 
@@ -20,9 +20,9 @@ public class Program {
         Scanner scanner = new Scanner(System.in);
         int numb = scanner.nextInt();
         if (numb <= car.amountSeeds()) {
-            System.out.println("Поехали!");
+            System.out.println("Ок, Едем!");
         } else {
-            System.out.println("Мест нет((");
+            System.out.println("Мест нет");
         }
     }
 }
