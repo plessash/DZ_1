@@ -42,5 +42,6 @@ public String isValueCategoryDriver(){
 
         // вернет true, если тип топлива подходит и количество литров влазит в бак
         boolean addFuel(float liters, String fuelType);
+
     }
 }
