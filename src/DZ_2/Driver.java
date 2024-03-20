@@ -1,6 +1,6 @@
 package DZ_2;
 
-public class Driver {
+public class Driver implements DriveCar  {
     private int drivingExperience;
 
     @Override
@@ -31,10 +31,10 @@ public String isValueCategoryDriver(){
         String b=this.getCategory();
         return getCategory();
 }
-    interface DrivingCar {
-        // вернет true, если тип топлива подходит и количество литров влазит в бак
-        boolean addFuel(float liters, String fuelType);
 
-
+    @Override
+    public boolean addFuel(float liters, String fuelType) {
+        return false;
     }
+
 }
